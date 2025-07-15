@@ -83,7 +83,7 @@ function Home() {
     }
     useEffect(() => {
         fetchExpenses()
-    }, [])
+    }, [fetchExpenses])
 
 
 
